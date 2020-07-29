@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9rem;
+  background-color: #f8f3eb;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  margin-bottom: 50px;
+  width: 10%
+}
+
+h1 {
+  margin: auto auto 0 auto;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 4.5rem;
+  color: #f08a5d;
+}
+
+h2 {
+  /*font-family: 'Sacramento', cursive;*/
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5rem;
+  color: #24a19c;
+}
+
+h3 {
+  color: #eebb4d;
+}
+
+p {
+  color: #596e79;
+  line-height: 2;
+}
+
+.eng {
+  text-decoration: underline;
+}
+.subheading{
+  margin-top: 0;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: white;
+
+}
+.middle-container {
+  padding-top: 30px;
+}
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #e3dfc8;
+
+}
+
+.mountain {
+  top: 70px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 70px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 150px;
+}
+
+.skill-row{
+  width:  50%;
+  margin: 50px auto 75px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill1{
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.skill2{
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+}
+
+.intro{
+  width: 60%;
+  margin: auto;
+  text-align:justify;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: 20px auto 20px;
+}
+
+a{
+  color: #221f3b;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.0rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #24a19c;
+}
+
+.copyright{
+  color: #24a19c;
+  font-size: 1rem;
+  font-family: 'Architects Daughter', cursive;
+  padding: 20px 0;
+}
+
+
+.myButton {
+	box-shadow:inset 8px 15px 12px -23px #f2fadc;
+	background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+	background-color:#dbe6c4;
+	border-radius:17px;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family: 'Architects Daughter', cursive;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #ced9bf;
+  margin-bottom: 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+	background-color:#9ba892;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
